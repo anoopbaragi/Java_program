@@ -39,7 +39,7 @@ public class method_overloading
         System.out.println(ob1.cal(20,1,3,2));
         System.out.println("MUL");
         method_overloading ob2 = new method_overloading();
-        System.out.println(ob2.cal(2.2f,1.0f,3.0f));
+        System.out.println(ob2.cal((float) 2.2,1.0f,3.0f));
         System.out.println("DIV");
         method_overloading ob3 = new method_overloading();
         System.out.println(ob3.cal(40,2));

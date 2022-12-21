@@ -7,15 +7,16 @@ class gs
 
     public void set(String name)
     {
-        if (name.matches(regex)) {
+        if (name.matches(regex))
+        {
             this.str = name;
-            //System.out.println("Valid Name");
         }
         else {
             System.out.println("Wrong Name");
         }
     }
-    public String getStr() {
+    public String getStr()
+    {
         return str;
     }
 }

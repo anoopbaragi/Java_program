@@ -3,9 +3,9 @@ import java.util.Scanner;
 class  demo
 {
     int r;
-    double pi;
+    float pi;
     double area;
-    public void set(int ra,double pii)
+    public void set(int ra,float pii)
     {
         this.r=ra;
         this.pi=pii;
@@ -20,6 +20,7 @@ class  demo
 //        return pi;
 //    }
     public double getArea()
+
     {
         return area;
     }
@@ -29,11 +30,11 @@ public class getter_setter
     public static void main(String[] args)
     {
         int radius;
-        Scanner sc = new Scanner(System.in);
+        Scanner av = new Scanner(System.in);
         System.out.println("Enter The radius");
-        radius=sc.nextInt();
+        radius=av.nextInt();
         demo d = new demo();
-        d.set(radius,3.147);
+        d.set(radius,3.147f);
         System.out.println("Area of Circle:" +d.getArea());
     }
 }
